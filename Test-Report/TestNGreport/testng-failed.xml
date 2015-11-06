@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Test Suite]">
+  <test name="Sample Test(failed)">
+    <classes>
+      <class name="Personal.directory">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Personal.directory -->
+      <class name="Personal.directory_chrome">
+        <methods>
+          <include name="deleteDirectory"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Personal.directory_chrome -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->

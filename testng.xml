@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+  <test name="Sample Test">
+    <classes>
+      <class name="Personal.directory"/>
+      <class name="Personal.directory_chrome"/>
+    </classes>
+  </test>
+</suite>
